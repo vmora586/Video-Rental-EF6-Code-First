@@ -10,5 +10,6 @@ namespace VideoRentalCodeFirst.Model
                 
         }
         public DbSet<Video> Videos { get; set; }
+        public DbSet<Genre> Genres { get; set; }
     }
 }
