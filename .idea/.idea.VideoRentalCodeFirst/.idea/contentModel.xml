@@ -7,11 +7,21 @@
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="packages" t="ExcludeRecursive" />
       <e p="VideoRentalCodeFirst" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Migrations" t="Include">
+          <e p="202006150033010_InitialSetup.cs" t="Include" />
+          <e p="202006150033010_InitialSetup.Designer.cs" t="Include" />
+          <e p="202006150033010_InitialSetup.resx" t="Include" />
+          <e p="Configuration.cs" t="Include" />
+        </e>
         <e p="Model" t="Include">
+          <e p="Genre.cs" t="Include" />
           <e p="Video.cs" t="Include" />
+          <e p="VideoRentalDbContext.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />

@@ -1,7 +1,14 @@
+using System.Data.Entity;
+
 namespace VideoRentalCodeFirst.Model
 {
-    public class VideoRentalDbSet
+    public class VideoRentalDbContext:DbContext
     {
-        
+        public VideoRentalDbContext()
+        :base("RentalVideoContext")
+        {
+                
+        }
+        public DbSet<Video> Videos { get; set; }
     }
 }
