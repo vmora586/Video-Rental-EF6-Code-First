@@ -16,6 +16,9 @@
           <e p="202006150040314_AddGenreTable.cs" t="Include" />
           <e p="202006150040314_AddGenreTable.Designer.cs" t="Include" />
           <e p="202006150040314_AddGenreTable.resx" t="Include" />
+          <e p="202006150118491_AddVideoGenreManyToManyRelationship.cs" t="Include" />
+          <e p="202006150118491_AddVideoGenreManyToManyRelationship.Designer.cs" t="Include" />
+          <e p="202006150118491_AddVideoGenreManyToManyRelationship.resx" t="Include" />
           <e p="Configuration.cs" t="Include" />
         </e>
         <e p="Model" t="Include">
