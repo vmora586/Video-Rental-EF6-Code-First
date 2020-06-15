@@ -13,6 +13,9 @@
           <e p="202006150033010_InitialSetup.cs" t="Include" />
           <e p="202006150033010_InitialSetup.Designer.cs" t="Include" />
           <e p="202006150033010_InitialSetup.resx" t="Include" />
+          <e p="202006150040314_AddGenreTable.cs" t="Include" />
+          <e p="202006150040314_AddGenreTable.Designer.cs" t="Include" />
+          <e p="202006150040314_AddGenreTable.resx" t="Include" />
           <e p="Configuration.cs" t="Include" />
         </e>
         <e p="Model" t="Include">
