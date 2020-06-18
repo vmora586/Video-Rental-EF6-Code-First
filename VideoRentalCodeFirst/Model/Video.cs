@@ -1,5 +1,4 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
 
 namespace VideoRentalCodeFirst.Model
@@ -14,5 +13,5 @@ namespace VideoRentalCodeFirst.Model
         public string Name { get; set; }
         public DateTime ReleaseDate { get; set; }
         public virtual ICollection<Genre> Genres { get; set; }
-    }
+    }  
 }

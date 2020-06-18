@@ -124,6 +124,10 @@
     <Compile Include="Migrations\202006150118491_AddVideoGenreManyToManyRelationship.Designer.cs">
       <DependentUpon>202006150118491_AddVideoGenreManyToManyRelationship.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202006180250179_PopulateGenreTable.cs" />
+    <Compile Include="Migrations\202006180250179_PopulateGenreTable.Designer.cs">
+      <DependentUpon>202006180250179_PopulateGenreTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Genre.cs" />
     <Compile Include="Model\Video.cs" />
@@ -144,6 +148,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202006150118491_AddVideoGenreManyToManyRelationship.resx">
       <DependentUpon>202006150118491_AddVideoGenreManyToManyRelationship.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202006180250179_PopulateGenreTable.resx">
+      <DependentUpon>202006180250179_PopulateGenreTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

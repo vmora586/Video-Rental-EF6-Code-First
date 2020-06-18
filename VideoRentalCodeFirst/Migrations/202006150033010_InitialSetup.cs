@@ -16,7 +16,6 @@
                         ReleaseDate = c.DateTime(nullable: false, precision: 0),
                     })
                 .PrimaryKey(t => t.Id);
-            
         }
         
         public override void Down()
