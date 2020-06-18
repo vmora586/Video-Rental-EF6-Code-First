@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using VideoRentalCodeFirst.Enums;
 
 namespace VideoRentalCodeFirst.Model
 {
@@ -9,5 +10,6 @@ namespace VideoRentalCodeFirst.Model
         public string Name { get; set; }
         public DateTime ReleaseDate { get; set; }
         public virtual Genre Genre { get; set; }
+        public virtual VideoClassification? Classification { get; set; }
     }  
 }

@@ -112,6 +112,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enums\VideoClassification.cs" />
     <Compile Include="Migrations\202006150033010_InitialSetup.cs" />
     <Compile Include="Migrations\202006150033010_InitialSetup.Designer.cs">
       <DependentUpon>202006150033010_InitialSetup.cs</DependentUpon>
@@ -135,6 +136,10 @@
     <Compile Include="Migrations\202006180319252_PopulateVideoTable.cs" />
     <Compile Include="Migrations\202006180319252_PopulateVideoTable.Designer.cs">
       <DependentUpon>202006180319252_PopulateVideoTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202006180334470_AddedClassificationPropertyToVideoClass.cs" />
+    <Compile Include="Migrations\202006180334470_AddedClassificationPropertyToVideoClass.Designer.cs">
+      <DependentUpon>202006180334470_AddedClassificationPropertyToVideoClass.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Genre.cs" />
@@ -165,6 +170,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202006180319252_PopulateVideoTable.resx">
       <DependentUpon>202006180319252_PopulateVideoTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202006180334470_AddedClassificationPropertyToVideoClass.resx">
+      <DependentUpon>202006180334470_AddedClassificationPropertyToVideoClass.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
