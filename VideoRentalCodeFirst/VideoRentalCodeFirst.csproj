@@ -113,6 +113,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EntityConfiguration\GenreConfiguration.cs" />
+    <Compile Include="EntityConfiguration\TagConfiguration.cs" />
     <Compile Include="EntityConfiguration\VideoConfiguration.cs" />
     <Compile Include="Enums\VideoClassification.cs" />
     <Compile Include="Migrations\202006150033010_InitialSetup.cs" />

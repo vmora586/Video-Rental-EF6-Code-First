@@ -11,6 +11,7 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="EntityConfiguration" t="Include">
           <e p="GenreConfiguration.cs" t="Include" />
+          <e p="TagConfiguration.cs" t="Include" />
           <e p="VideoConfiguration.cs" t="Include" />
         </e>
         <e p="Enums" t="Include">
