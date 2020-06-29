@@ -112,6 +112,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EntityConfiguration\VideoConfiguration.cs" />
     <Compile Include="Enums\VideoClassification.cs" />
     <Compile Include="Migrations\202006150033010_InitialSetup.cs" />
     <Compile Include="Migrations\202006150033010_InitialSetup.Designer.cs">

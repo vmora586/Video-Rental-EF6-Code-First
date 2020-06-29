@@ -9,6 +9,12 @@
       <e p="VideoRentalCodeFirst" t="IncludeRecursive">
         <e p="App.config" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="EntityConfiguration" t="Include">
+          <e p="VideoConfiguration.cs" t="Include" />
+        </e>
+        <e p="Enums" t="Include">
+          <e p="VideoClassification.cs" t="Include" />
+        </e>
         <e p="Migrations" t="Include">
           <e p="202006150033010_InitialSetup.cs" t="Include" />
           <e p="202006150033010_InitialSetup.Designer.cs" t="Include" />
@@ -22,6 +28,15 @@
           <e p="202006180250179_PopulateGenreTable.cs" t="Include" />
           <e p="202006180250179_PopulateGenreTable.Designer.cs" t="Include" />
           <e p="202006180250179_PopulateGenreTable.resx" t="Include" />
+          <e p="202006180305394_ModifiedVideoGenreManyToManyRelationship.cs" t="Include" />
+          <e p="202006180305394_ModifiedVideoGenreManyToManyRelationship.Designer.cs" t="Include" />
+          <e p="202006180305394_ModifiedVideoGenreManyToManyRelationship.resx" t="Include" />
+          <e p="202006180319252_PopulateVideoTable.cs" t="Include" />
+          <e p="202006180319252_PopulateVideoTable.Designer.cs" t="Include" />
+          <e p="202006180319252_PopulateVideoTable.resx" t="Include" />
+          <e p="202006180334470_AddedClassificationPropertyToVideoClass.cs" t="Include" />
+          <e p="202006180334470_AddedClassificationPropertyToVideoClass.Designer.cs" t="Include" />
+          <e p="202006180334470_AddedClassificationPropertyToVideoClass.resx" t="Include" />
           <e p="Configuration.cs" t="Include" />
         </e>
         <e p="Model" t="Include">
