@@ -7,7 +7,16 @@ namespace VideoRentalCodeFirst.EntityConfiguration
     {
         public VideoConfiguration()
         {
-                
+            ToTable("Videos");
+            HasKey(v => v.Id);
+
+            Property(v => v.Name)
+                .IsRequired()
+                .HasMaxLength(255);
+
+            HasRequired(v => v.Genre)
+                .WithMany(g => g.Videos)
+                .HasForeignKey(v => v.GenreId);
         }
         
     }

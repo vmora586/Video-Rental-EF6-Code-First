@@ -142,6 +142,10 @@
     <Compile Include="Migrations\202006180334470_AddedClassificationPropertyToVideoClass.Designer.cs">
       <DependentUpon>202006180334470_AddedClassificationPropertyToVideoClass.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202006290704412_AddedVideoConfigurationClass.cs" />
+    <Compile Include="Migrations\202006290704412_AddedVideoConfigurationClass.Designer.cs">
+      <DependentUpon>202006290704412_AddedVideoConfigurationClass.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Genre.cs" />
     <Compile Include="Model\Video.cs" />
@@ -174,6 +178,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202006180334470_AddedClassificationPropertyToVideoClass.resx">
       <DependentUpon>202006180334470_AddedClassificationPropertyToVideoClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202006290704412_AddedVideoConfigurationClass.resx">
+      <DependentUpon>202006290704412_AddedVideoConfigurationClass.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

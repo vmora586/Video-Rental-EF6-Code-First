@@ -10,6 +10,7 @@ namespace VideoRentalCodeFirst.Model
         public string Name { get; set; }
         public DateTime ReleaseDate { get; set; }
         public virtual Genre Genre { get; set; }
+        public int GenreId { get; set; }
         public virtual VideoClassification? Classification { get; set; }
     }  
 }
