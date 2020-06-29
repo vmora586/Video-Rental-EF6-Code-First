@@ -112,6 +112,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EntityConfiguration\GenreConfiguration.cs" />
     <Compile Include="EntityConfiguration\VideoConfiguration.cs" />
     <Compile Include="Enums\VideoClassification.cs" />
     <Compile Include="Migrations\202006150033010_InitialSetup.cs" />
@@ -148,6 +149,7 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Genre.cs" />
+    <Compile Include="Model\Tag.cs" />
     <Compile Include="Model\Video.cs" />
     <Compile Include="Model\VideoRentalDbContext.cs" />
     <Compile Include="Program.cs" />

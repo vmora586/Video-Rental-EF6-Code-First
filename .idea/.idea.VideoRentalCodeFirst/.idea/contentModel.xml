@@ -10,6 +10,7 @@
         <e p="App.config" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="EntityConfiguration" t="Include">
+          <e p="GenreConfiguration.cs" t="Include" />
           <e p="VideoConfiguration.cs" t="Include" />
         </e>
         <e p="Enums" t="Include">
@@ -44,6 +45,7 @@
         </e>
         <e p="Model" t="Include">
           <e p="Genre.cs" t="Include" />
+          <e p="Tag.cs" t="Include" />
           <e p="Video.cs" t="Include" />
           <e p="VideoRentalDbContext.cs" t="Include" />
         </e>
