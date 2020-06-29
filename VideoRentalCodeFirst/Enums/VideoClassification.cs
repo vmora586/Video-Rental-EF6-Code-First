@@ -1,6 +1,6 @@
 namespace VideoRentalCodeFirst.Enums
 {
-    public enum VideoClassification
+    public enum VideoClassification: byte
     {
         Silver = 1,
         Gold = 2,
