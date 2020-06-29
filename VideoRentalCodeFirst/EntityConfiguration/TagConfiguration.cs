@@ -13,9 +13,12 @@ namespace VideoRentalCodeFirst.EntityConfiguration
 
             HasMany(t => t.Videos)
                 .WithMany(v => v.Tags)
-                .Map(m => m.ToTable("VideoTags")
-                    .MapLeftKey("VideoId")
-                    .MapRightKey("TagId"));
+                .Map(m =>
+                {
+                        m.ToTable("VideoTags");
+                        m.MapLeftKey("TagId");
+                        m.MapRightKey("VideoId");
+                });
         }
     }
 }
