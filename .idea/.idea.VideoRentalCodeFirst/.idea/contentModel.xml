@@ -45,6 +45,9 @@
           <e p="202006290844057_AddedTagTable.cs" t="Include" />
           <e p="202006290844057_AddedTagTable.Designer.cs" t="Include" />
           <e p="202006290844057_AddedTagTable.resx" t="Include" />
+          <e p="202007042055245_PopulateGenreTable1.cs" t="Include" />
+          <e p="202007042055245_PopulateGenreTable1.Designer.cs" t="Include" />
+          <e p="202007042055245_PopulateGenreTable1.resx" t="Include" />
           <e p="Configuration.cs" t="Include" />
         </e>
         <e p="Model" t="Include">
