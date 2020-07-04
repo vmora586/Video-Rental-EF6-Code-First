@@ -156,6 +156,10 @@
     <Compile Include="Migrations\202007042055245_PopulateGenreTable1.Designer.cs">
       <DependentUpon>202007042055245_PopulateGenreTable1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202007042154334_PopulateVideoTable1.cs" />
+    <Compile Include="Migrations\202007042154334_PopulateVideoTable1.Designer.cs">
+      <DependentUpon>202007042154334_PopulateVideoTable1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Genre.cs" />
     <Compile Include="Model\Tag.cs" />
@@ -198,6 +202,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202007042055245_PopulateGenreTable1.resx">
       <DependentUpon>202007042055245_PopulateGenreTable1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202007042154334_PopulateVideoTable1.resx">
+      <DependentUpon>202007042154334_PopulateVideoTable1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
